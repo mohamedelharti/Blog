@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    color: rgba(0, 0, 0, .87);
+    font-family: "Montserrat, sans-serif";
+    line-height: 1.8;
+}
+
+.top-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #FFF;
+    z-index: 1000;
+    box-shadow: 0 4px 35px rgba(0,0,0,.5);
+    padding: 5px;
+}
+
+.top-bar nav{
+    float: left;
+}
+
+.top-bar nav a{
+    color: #9F9F9F;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 0 53px;
+}
+
+.top-bar nav a:hover, .top-bar nav a.active{
+    color: black;
+}
+
+.top-bar .social{
+    float: right;
+}
+
+.top-bar .social a{
+    padding: 0 12px;
+    opacity: .5;
+}
+
+.top-bar .social a:hover{
+    opacity: 1;
+}
+
+.top-bar .social img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.banniere img{
+    width: 1263px;
+    height: 400px;
+}
+
+.container{
+    margin-top: -10px;
+}
+
+.container .main{
+    float: left;
+    width: calc(100% - 375px);
+    background: white;
+    position: relative;
+    z-index: 2;
+}
+
+
+.container .sidebar{
+    float: right;
+    width: 375px;
+    z-index: 1;
+}
+
+.sidebar .sidebar-title{
+    font-size: 30px;
+    color: black;
+    margin: 35px;
+}
+
+.sidebar .sidebar-title:first-child{
+    margin-top: 0;
+}
+
+.sidebar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 17px;
+    line-height: 2.3;
+}
+
+.sidebar li{
+    padding: 6px 0;
+    margin: 0 10px;
+}
+
+.sidebar li a{
+    color: #9F9F9F;
+    text-decoration: none;
+}
+
+.sidebar li a:hover{
+    color: #000;
+    text-decoration: underline;
+}
+
+.article{
+    overflow: hidden;
+    margin: 25px 10px;
+}
+
+.article-img{
+    float: left;
+    width: 308px;
+    margin-right: 25px;
+}
+
+.article-img img{
+    width: 100%;
+    height: auto;
+}
+
+.article-date{
+    font-weight: 300;
+    color: rgba(0, 0, 0, .87);
+    margin-bottom: 5px;
+}
+
+.article-title{
+    font-size: 2.25rem;
+    line-height: 1.1;
+    font-family: "Cardo",serif;
+    margin: 0 0 15px 0;
+}
+
+.footer{
+    text-align: center;
+    clear: both;
+    background: rgb(184, 184, 184);
+}
+
